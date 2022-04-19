@@ -1,0 +1,89 @@
+:root {
+  --primary-color: #00a65a;
+  --primary-text-color: #86ba09;
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #333;
+  --default-color: #ddd;
+  --hv-primary-btn: #5c7918;
+  --text-color: #333;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.app {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.my-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.error-input {
+  border: 1px solid red;
+}
+
+.error-text {
+  color: red;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+p,h2 {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+body {
+  scroll-behavior: auto;
+}
+
+.carousel {
+  height: 300px !important;
+}
+
+.flickity-viewport {
+  height: 100% !important;
+}
+.flickity-button {
+  top: 45% !important;
+}
+
+a,a:hover {
+  text-decoration: none;
+  color: #333;
+}
